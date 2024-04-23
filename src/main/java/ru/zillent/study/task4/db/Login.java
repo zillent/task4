@@ -1,4 +1,4 @@
-package ru.zillent.stydy.task4.db;
+package ru.zillent.study.task4.db;
 
 import jakarta.persistence.*;
 import lombok.Data;

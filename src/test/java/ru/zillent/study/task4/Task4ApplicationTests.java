@@ -1,4 +1,4 @@
-package ru.zillent.stydy.task4;
+package ru.zillent.study.task4;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

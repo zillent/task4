@@ -1,12 +1,12 @@
-package ru.zillent.stydy.task4.file;
+package ru.zillent.study.task4.file;
 
 import com.fasterxml.jackson.databind.MappingIterator;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.stereotype.Component;
-import ru.zillent.stydy.task4.service.DTO;
-import ru.zillent.stydy.task4.service.DataReader;
+import ru.zillent.study.task4.service.DTO;
+import ru.zillent.study.task4.service.DataReader;
 
 import java.io.IOException;
 import java.nio.file.Files;

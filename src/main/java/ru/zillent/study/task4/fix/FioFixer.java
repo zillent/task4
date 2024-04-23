@@ -1,12 +1,14 @@
-package ru.zillent.stydy.task4.fix;
+package ru.zillent.study.task4.fix;
 
 import org.springframework.stereotype.Component;
-import ru.zillent.stydy.task4.service.DTO;
-import ru.zillent.stydy.task4.service.DataFixer;
+import ru.zillent.study.task4.service.DataFixer;
+import ru.zillent.study.task4.log.LogTransformation;
+import ru.zillent.study.task4.service.DTO;
 
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+@LogTransformation
 @Component
 public class FioFixer implements DataFixer {
     @Override

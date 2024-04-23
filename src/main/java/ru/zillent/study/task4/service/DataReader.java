@@ -1,4 +1,4 @@
-package ru.zillent.stydy.task4.service;
+package ru.zillent.study.task4.service;
 
 import java.util.List;
 

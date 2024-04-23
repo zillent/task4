@@ -1,4 +1,4 @@
-package ru.zillent.stydy.task4.service;
+package ru.zillent.study.task4.service;
 
 import lombok.Getter;
 import lombok.Setter;

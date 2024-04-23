@@ -1,11 +1,10 @@
-package ru.zillent.stydy.task4;
+package ru.zillent.study.task4;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
-import ru.zillent.stydy.task4.db.UserRepository;
-import ru.zillent.stydy.task4.file.FileReader;
-import ru.zillent.stydy.task4.service.DataProcessor;
+import ru.zillent.study.task4.file.FileReader;
+import ru.zillent.study.task4.service.DataProcessor;
 
 @SpringBootApplication
 public class Task4Application {
