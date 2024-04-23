@@ -15,5 +15,5 @@ Build:
 mvn package
 
 Run:
-java -jar target/task4-0.0.1-SNAPSHOT.jar files/
+java -jar target/task4-0.0.1-SNAPSHOT.jar input
 

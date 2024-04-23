@@ -12,7 +12,7 @@ public class Task4Application {
 	public static void main(String[] args) {
 		ApplicationContext ctx = SpringApplication.run(Task4Application.class, args);
 		DataProcessor dataProcessor = ctx.getBean(DataProcessor.class);
-		((FileReader) dataProcessor.getDataReader()).setFolderPath("input");
+		((FileReader) dataProcessor.getDataReader()).setFolderPath(args[0]);
 		dataProcessor.doWork();
 	}
 }
